@@ -1,0 +1,58 @@
+@import "animate.css";
+
+*{
+  padding: 0;
+  margin: :0;
+
+}
+.container{
+  width: 100%;
+  height:250vh;
+  background-image: url(oceanPixel.gif);
+  background-size: cover;
+  background-position: center;
+  padding-left: 8%;
+  padding-right: 8%;
+  box-sizing: border-box;
+
+}
+.header{
+  background: rgb(0, 0, 0);
+  height: 20%;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+.logo{
+  width:2000px;
+  cursor: pointer;
+}
+.paragraph3{
+  font-size: 10px;
+  font-family: fantasy;
+}
+.paragraph2{
+  font-size: 20px;
+  font-family: fantasy;
+}
+.paragraph1{
+  font-size: 40px;
+  font-family: fantasy;
+}
+.content{
+  width: 400px;
+  height: 300px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 10px;
+  vertical-align: middle;
+  background-position: left;
+
+}
+
+.bar2{
+  position: relative;
+  top: 10px;
+  left: 1000px
+}
